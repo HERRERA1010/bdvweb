@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+}
+
+@font-face{
+    font-family: CinzelDeco;
+    src: url(../fuentes/CinzelDecorative-Regular.ttf);
+}
+@font-face{
+    font-family: CinzelDecoBold;
+    src: url(../fuentes/CinzelDecorative-Bold.ttf);
+}
+
+/*GENERALES*/
+body {
+    background-color: #252525;
+    
+}
+
+.navbar{
+    box-shadow: 0px 10px 20px #1d1d1d ;
+   
+}
+
+.navbar{
+    text-align: center !important;
+}
+
+
+.navbar-brand{
+    font-family: 'CinzelDeco';
+}
+ /*HEADER*/
+.cabecera {
+    height: 300px;
+    width: 100% ;
+    background-color: white;
+    background-repeat: no-repeat;
+    text-align:center;
+    font-family: 'CinzelDeco', cursive;
+    
+}
+
+
+
+.cabecera > p{
+    
+    color:black;
+    padding-top: 100px;
+    font-size: 35PX;
+    text-shadow: 2px 2px 6px #202020;
+    text-align: center;
+    
+}
+
+.cabecera>img{
+
+    height: 15%;
+}
+
+.social{
+    position: fixed;
+    left: 0;
+    top: 360px;
+    z-index:2000 ;
+}
+.social ul li a{
+    display: inline-block;
+    color:black;
+    padding: 10px 15px;
+    background-color: white;
+    transition: all 400ms;
+}
+
+.fa-instagram  {
+    font-size: 23.5px;
+    transition: all 400ms;
+} 
+
+.fa-twitter{
+    font-size: 21px;
+    transition: all 400ms;
+}
+
+.fa-facebook{
+    font-size: 21px;
+    transition: all 400ms;
+}
+
+.social ul li a:hover{
+   padding: 10px 30px;
+}
+
+.fa-instagram:hover{
+    font-size: 24px;
+    color: rgb(192, 66, 17);
+
+}
+
+.fa-facebook:hover{
+    font-size: 24px;
+    color: rgb(7, 88, 163);
+}
+
+.fa-twitter:hover{
+    font-size: 24px;
+    color:#1DA0F0 ;
+}
+
+
+.menu1 ul li a{
+   text-align: center;
+    text-decoration:none;
+    font-family:'CinzelDeco', cursive;
+    margin-left: 10px;
+    margin-right: 1px;
+    margin-top: 20px;
+    font-size: 17px;
+    
+}
+
+.menu1 ul li a:first-child{
+    margin-right: 30px;
+}
+
+a:hover{
+    text-decoration: none;
+    color: blue;
+}
+
+.footer{
+    text-align: center;
+    width: 100% ;
+    height: 150px;
+    background-color: #343A40;
+    color: white;
+}
+
+#texto-footer{
+    padding-top: 60px;
+}
